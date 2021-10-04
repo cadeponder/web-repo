@@ -3,39 +3,49 @@ background-color: #ffe7d5;
 /* margin-left: 10vw;
 margin-right: 10vw; */
 margin: 0;
+padding: 2vw;
 border-left: 150px solid #944205;
 border-right: 150px solid #944205;
 }
 
 h1 {
 font-family: 'Ubuntu Mono', monospace;
-font-size: 50px;
+font-size: 8vw;
 font-weight: bold;
+margin:0px;
+padding:0px;
+line-height: 70px;
 }
 h2 {
 font-family: 'Ubuntu Mono', monospace;
-font-size: 45px;
+font-size: 7vw;
+line-height: 65px;
 }
 h3 {
 font-family: 'Ubuntu Mono', monospace;
-font-size: 40px;
+font-size: 6vw;
+line-height: 65px;
 }
 h4 {
 font-family: 'Ubuntu Mono', monospace;
-font-size: 35px;
+font-size: 5vw;
+line-height: 65px;
 }
 h5 {
 font-family: 'Ubuntu Mono', monospace;
-font-size: 30px;
+font-size: 4vw;
+line-height: 65px;
 }
 h6 {
 font-family: 'Ubuntu Mono', monospace;
-font-size: 25px;
+font-size: 3vw;
+line-height: 65px;
 }
 p {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 20px;
 font-weight: normal;
+line-height: 30px;
 }
 ul {
 font-family: 'Ubuntu Mono', monospace;
@@ -64,27 +74,6 @@ text-shadow: 1px 1px 2px #4b686b;
 a:active {
 color: #516a6d;
 text-decoration: underline;
-}
-
-#hero h1{
-position: relative;
-margin: 0 0 0 0;
-}
-#hero {
-position: relative;
-margin:0;
-padding:0;
-width: 100vw;
-height: 50vh;
-overflow: hidden;
-}
-#hero img{
-width:100 vw;
-}
-
-.img1{
-position: relative;
-
 }
 
 button {
