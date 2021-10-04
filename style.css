@@ -2,7 +2,7 @@ body {
 background-color: #ffe7d5;
 /* margin-left: 10vw;
 margin-right: 10vw; */
-
+margin: 0;
 border-left: 9vw solid #944205;
 border-right: 9vw solid #944205;
 }
@@ -11,4 +11,61 @@ border-right: 9vw solid #944205;
 
 h1 {
 font-family: 'Ubuntu Mono', monospace;
+font-size: 50px;
+}
+
+h2 {
+font-family: 'Ubuntu Mono', monospace;
+font-size: 45px;
+}
+
+h3 {
+font-family: 'Ubuntu Mono', monospace;
+font-size: 40px;
+}
+
+h4 {
+font-family: 'Ubuntu Mono', monospace;
+font-size: 35px;
+}
+
+h5 {
+font-family: 'Ubuntu Mono', monospace;
+font-size: 30px;
+}
+
+h6 {
+font-family: 'Ubuntu Mono', monospace;
+font-size: 25px;
+}
+
+p {
+font-family: 'Ubuntu Mono', monospace;
+font-size: 20px;
+}
+
+ul {
+font-family: 'Ubuntu Mono', monospace;
+font-size: 20px;
+}
+
+a {
+font-family: 'Ubuntu Mono', monospace;
+font-size: 20px;
+font-style: italic;
+}
+
+a:link {
+color: #6b8d91;
+}
+
+a:visited {
+
+}
+a:hover {
+
+}
+
+a:active {
+
 }
