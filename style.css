@@ -14,17 +14,18 @@ font-size: 8vw;
 font-weight: bold;
 margin:0px;
 padding:0px;
-line-height: 70px;
 }
 h2 {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 7vw;
-line-height: 65px;
+argin:0px;
+padding:0px;
+
 }
 h3 {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 6vw;
-line-height: 65px;
+
 }
 h4 {
 font-family: 'Ubuntu Mono', monospace;
@@ -34,7 +35,7 @@ line-height: 65px;
 h5 {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 4vw;
-line-height: 65px;
+
 }
 h6 {
 font-family: 'Ubuntu Mono', monospace;
@@ -45,7 +46,7 @@ p {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 20px;
 font-weight: normal;
-line-height: 30px;
+
 }
 ul {
 font-family: 'Ubuntu Mono', monospace;
@@ -79,6 +80,8 @@ text-decoration: underline;
 button {
   font-family: 'Ubuntu Mono', monospace;
   background-color: #e0a475;
+  height:50px;
+  width:100px;
 }
 
 button:hover{
