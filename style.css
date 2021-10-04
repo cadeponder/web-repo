@@ -1,6 +1,7 @@
 body {
 background-color: #ffe7d5;
+border: 20x solid #944205;
 }
 h1 {
-font-family: 'Ubuntu Mono', monospace;  
+font-family: 'Ubuntu Mono', monospace;
 }
