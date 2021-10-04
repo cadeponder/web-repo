@@ -3,67 +3,55 @@ background-color: #ffe7d5;
 /* margin-left: 10vw;
 margin-right: 10vw; */
 margin: 0;
-border-left: 9vw solid #944205;
-border-right: 9vw solid #944205;
+border-left: 150px solid #944205;
+border-right: 150px solid #944205;
 }
-
-
 
 h1 {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 50px;
 font-weight: bold;
 }
-
 h2 {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 45px;
 }
-
 h3 {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 40px;
 }
-
 h4 {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 35px;
 }
-
 h5 {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 30px;
 }
-
 h6 {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 25px;
 }
-
 p {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 20px;
 font-weight: normal;
 }
-
 ul {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 20px;
 font-weight: lighter;
 }
-
 a {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 20px;
 font-style: italic;
 font-weight: bold;
 }
-
 a:link {
 text-decoration: none;
 color: #5a7375;
 }
-
 a:visited {
 color: #516a6d;
 text-decoration: underline;
@@ -73,8 +61,37 @@ color: #709093;
 text-decoration: underline;
 text-shadow: 1px 1px 2px #4b686b;
 }
-
 a:active {
 color: #516a6d;
 text-decoration: underline;
+}
+
+#hero h1{
+position: relative;
+margin: 0 0 0 0;
+}
+#hero {
+position: relative;
+margin:0;
+padding:0;
+width: 100vw;
+height: 50vh;
+overflow: hidden;
+}
+#hero img{
+width:100 vw;
+}
+
+.img1{
+position: relative;
+
+}
+
+button {
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: #e0a475;
+}
+
+button:hover{
+  background-color: #a96330;
 }
