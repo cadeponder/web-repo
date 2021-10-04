@@ -12,6 +12,7 @@ border-right: 9vw solid #944205;
 h1 {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 50px;
+font-weight: bold;
 }
 
 h2 {
@@ -42,30 +43,38 @@ font-size: 25px;
 p {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 20px;
+font-weight: normal;
 }
 
 ul {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 20px;
+font-weight: lighter;
 }
 
 a {
 font-family: 'Ubuntu Mono', monospace;
 font-size: 20px;
 font-style: italic;
+font-weight: bold;
 }
 
 a:link {
-color: #6b8d91;
+text-decoration: none;
+color: #5a7375;
 }
 
 a:visited {
-
+color: #516a6d;
+text-decoration: underline;
 }
 a:hover {
-
+color: #709093;
+text-decoration: underline;
+text-shadow: 1px 1px 2px #4b686b;
 }
 
 a:active {
-
+color: #516a6d;
+text-decoration: underline;
 }
