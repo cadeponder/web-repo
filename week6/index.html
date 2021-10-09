@@ -6,7 +6,7 @@
     <title>Week 1 Javascript huh</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  
+
   <body>
   <section>
     <h1>
@@ -19,27 +19,38 @@
     <p>
       <button id="B1">Button 1</button>
       <button id="B2">Button 2</button>
-      <button id="B3">Button 2</button>
+      <button id="B3">Button 2?</button>
     </p>
  </section>
 
  <script>
- document.getElementById("B1").onClick= function b1()
+
+ document.getElementById("B1").onclick = function b1()
  {
- alert("test");
- document.getElementById("text").style.color= 'green';
+   alert("You clicked button 1!");
+ 	document.getElementById("text").style.color = '#483D3F';
+  window.setTimeout("B1()",10);
  }
 
- // function b1(){
- // alert("test");
- //
- // }
- function b2(){
-
+ document.getElementById("B2").onclick = function b2()
+ {
+   alert("You clicked button 2!");
+ 	document.body.style.backgroundColor = '#77685D';
  }
- function b3(){
 
+ document.getElementById("B3").onclick = function b3()
+ {
+  var ImageID = document.getElementById("wiz");
+  alert("Ahh... You THOUGHT there was only 2 buttons? I LIED");
+  if (ImageID.src.match("wiz.png")) {
+    ImageID.src = "wiz2.png";
+  }
+  else {
+    ImageID= "wiz.png";
+  }
  }
+
+
  </script>
   </body>
 </html>

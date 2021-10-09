@@ -1,13 +1,21 @@
 body {
 font-size: 3vw;
 margin: 25vw;
-background-color: ;
+background-color: #A39A92;
 }
-
-#wiz {
+img {
+  padding-left: 14vw;
+  padding-right: 14vw;
+}
+/* #wiz {
 padding-left: 14vw;
 padding-right: 14vw;
 }
+
+#wiz2 {
+  padding-left: 14vw;
+  padding-right: 14vw;
+} */
 
 #buttons {
 padding-left: 14vw;
