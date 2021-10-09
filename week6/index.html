@@ -4,17 +4,42 @@
   <head>
     <meta charset="utf-8">
     <title>Week 1 Javascript huh</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
   </head>
+  
   <body>
   <section>
     <h1>
-      This website contains 2 buttons.
+      <span id="text">This website contains <u><em>just</em></u> 2 buttons.</span>
     </h1>
+    <img id="wiz" src="wiz.png" alt="Stardew Valley Wizard, Stern">
+  </section>
+
+  <section id="buttons">
     <p>
       <button id="B1">Button 1</button>
       <button id="B2">Button 2</button>
+      <button id="B3">Button 2</button>
     </p>
  </section>
+
+ <script>
+ document.getElementById("B1").onClick= function b1()
+ {
+ alert("test");
+ document.getElementById("text").style.color= 'green';
+ }
+
+ // function b1(){
+ // alert("test");
+ //
+ // }
+ function b2(){
+
+ }
+ function b3(){
+
+ }
+ </script>
   </body>
 </html>
