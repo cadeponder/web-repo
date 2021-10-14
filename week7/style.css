@@ -7,11 +7,29 @@ body {
 }
 h1 {
   color: #FFFCE8;
-  margin-top: 50vh;
+  margin-top: 5vh;
   margin-bottom: 10vh;
   text-align: center;
+  font-size: 4vw;
+  font-style: italic;
 }
 
 .zest {
   margin: auto;
+}
+#quote {
+  text-align: center;
+}
+
+img {
+height: 20vw;
+margin-top: 20vh;
+}
+
+button {
+border:none;
+color: #DD403A;
+font-weight: bold;
+background-color: #FFFCE8;
+border-radius: 10px;
 }

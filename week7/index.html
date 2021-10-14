@@ -6,18 +6,19 @@
 </head>
 <body>
 <section id="quote">
+<img id="lem" src="lemon.png" alt="zesty lemon">
 <h1 id="text"><b>Click the button for a zesty quote!</b></h1>
 <button id="zest">GENERATE</button>
 </section>
 <script>
   const quotes = ["If the police pull you over, deny you knew anything illegal was in the car, then they can't charge you- A Lawyer", "Due tomorrow, do tomorrow- Every College Student", "Imposter syndrom? More like impasta syndrom, someone pass the marinara I'm so sad- Me","The C4C slaps- Seniors Going to the C4C for Nostalgia", "I can't believe you did that- Parents of Problematic Children"];
+  const images = ["cop.png", "students.png", "pasta.png", "thumbsup.png", "angry.png"];
   let count = 0;
-
   document.getElementById("zest").addEventListener("click", getZest);
-
   function getZest(){
     console.log(quotes[count]);
     document.getElementById("text").innerHTML = quotes[count];
+    document.getElementById("lem").src =images[count];
     if(count>=4){
       count = 0;
     }else{
