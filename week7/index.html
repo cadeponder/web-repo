@@ -15,15 +15,17 @@
   const images = ["cop.png", "students.png", "pasta.png", "thumbsup.png", "angry.png"];
   let count = 0;
   document.getElementById("zest").addEventListener("click", getZest);
+
   function getZest(){
     console.log(quotes[count]);
     document.getElementById("text").innerHTML = quotes[count];
     document.getElementById("lem").src =images[count];
     if(count>=4){
       count = 0;
-    }else{
-    count++;
-  }
+    }
+    else{
+    count=count+1;
+    }
   }
 
 </script>

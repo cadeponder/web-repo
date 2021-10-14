@@ -33,3 +33,9 @@ font-weight: bold;
 background-color: #FFFCE8;
 border-radius: 10px;
 }
+
+button:hover {
+font-style: italic;
+text-decoration: underline;
+background-color: #f7eeb7;
+}
