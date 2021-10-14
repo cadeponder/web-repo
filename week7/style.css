@@ -1,0 +1,17 @@
+/* late FFFCE8
+blk coffee 3E363F
+red DD403A */
+body {
+  background-color: #DD403A;
+
+}
+h1 {
+  color: #FFFCE8;
+  margin-top: 50vh;
+  margin-bottom: 10vh;
+  text-align: center;
+}
+
+.zest {
+  margin: auto;
+}
