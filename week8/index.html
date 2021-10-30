@@ -6,7 +6,90 @@
     <title>Project 2- Self Care Menu</title>
   </head>
   <body>
-    test
+  <div id="title">
+  <h2>Project 2- Self Care Menu</h2>
+  <p>Click on the buttons inside the tabbed menu:</p>
+</div>
+
+  <div class="tab">
+    <button class="tablinks" onclick="openMenu(event, 'Monday')" id="defaultOpen">Monday</button>
+    <button class="tablinks" onclick="openMenu(event, 'Tuesday')">Tuesday</button>
+    <button class="tablinks" onclick="openMenu(event, 'Wednesday')">Wednesday</button>
+    <button class="tablinks" onclick="openMenu(event, 'Thursday')">Thursday</button>
+    <button class="tablinks" onclick="openMenu(event, 'Friday')">Friday</button>
+    <button class="tablinks" onclick="openMenu(event, 'Saturday')">Saturday</button>
+    <button class="tablinks" onclick="openMenu(event, 'Sunday')">Sunday</button>
+  </div>
+
+  <div id="Monday" class="tabcontent">
+    <h3>Monday</h3>
+    <ul>
+      <li>Take more time to make breafkast before classes</li>
+      <li>Play guitar </li>
+      <li>Go to bed earlier</li>
+    </ul>
+    <img  src="guitar.png" alt="guitar">
+    <!-- <img src="breakfast.png" alt="breakfast">
+    <img src="sleep-in.png" alt="sleeping in"> -->
+  </div>
+
+  <div id="Tuesday" class="tabcontent">
+    <h3>Tuesday</h3>
+    <ul>
+      <li>Wake up with enough time to make tea to-go before Web</li>
+      <li>Read self-affirmations</li>
+      <li>Eat before meeting @6-8PM</li>
+    </ul>
+      <img src="meal.png" alt="meal">
+  </div>
+
+  <div id="Wednesday" class="tabcontent">
+    <h3>Wednesday</h3>
+    <ul>
+      <li>Take more time to make breakfast before classes</li>
+      <li>Take a longer shower</li>
+      <li>Work on personal projects</li>
+      <li>Go outside for at least an hour </li>
+    </ul>
+    <img  src="outside.jpg" alt="outside">
+  </div>
+
+  <div id="Thursday" class="tabcontent">
+    <h3>Thursday</h3>
+    <ul>
+    <li>Listen to music in the morning before school</li>
+    <li>Work on small personal compositions in multi-media sketchbook</li>
+    <li>Scheduled “date night” with partner</li>
+    </ul>
+    <img src="art.png" alt="art">
+  </div>
+  <div id="Friday" class="tabcontent">
+    <h3>Friday</h3>
+    <ul>
+    <li>Take more time to make breakfast before classes</li>
+    <li>Send my friends my project progress from the week for support</li>
+    <li>Make a full breakfast</li>
+    </ul>
+    <img src="breakfast.png" alt="breakfast">
+  </div>
+  <div id="Saturday" class="tabcontent">
+    <h3>Saturday</h3>
+    <ul>
+    <li>Meal prep for next week</li>
+    <li>Sleep in</li>
+    <li>Go outside for at least an hour</li>
+    </ul>
+    <img src="sleep-in.png" alt="sleeping in">
+  </div>
+  <div id="Sunday" class="tabcontent">
+    <h3>Sunday</h3>
+    <ul>
+    <li>Take a longer shower</li>
+    <li>Do a face mask</li>
+    <li>Sketch for 30 minutes</li>
+    </ul>
+    <img src="facemask.png" alt="girl in a facce facemask">
+  </div>
   <script type="text/javascript" src="index.js"></script>
   </body>
 </html>

@@ -1,0 +1,10 @@
+#tabs{
+  display: flex;
+  margin:25vh 10vw 0 10vw;
+}
+
+.days {
+  flex-grow: 1;
+  width: auto;
+  background-color: blue;
+}
