@@ -5,6 +5,11 @@
 
 .days {
   flex-grow: 1;
+  height:100px;
   width: auto;
   background-color: blue;
+}
+
+h2 {
+  font-size: 5px;
 }
