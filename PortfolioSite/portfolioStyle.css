@@ -1,0 +1,256 @@
+body {
+  background-color: #E0E1DD;
+  font-family: 'Oswald', sans-serif;
+}
+/* PADDING IS IS QUERIES */
+#name {
+  /* background-color: red; */
+}
+#pronouns {
+  /* background-color: blue; */
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  color:#0D1B2A;
+  /* background-color: pink; */
+}
+#logo {
+  background-color: #778DA9;
+}
+#leftImagePanel {
+  background-color: #D4D4D4;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+/* finish button styling */
+.textCont {
+
+}
+/* NEEDS TO BE CENTERED TEXT WISE FIX LATER */
+#bodyText h2 {
+  /* background-color: blue; */
+  font-size: 3.5vw;
+  /* background-color: red; */
+}
+#bodyText h4 {
+  color: #C4C4C4;
+  /* background-color: blue; */
+}
+#bodyText {
+  height: 25vw;
+  background-color: #0D1B2A;
+  color: #E0E1DD;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* style content within container guide div */
+
+h1 {
+  font-weight: 700;
+  font-size: 7vw;
+}
+h2 {
+  font-weight:500;
+  font-weight: 5vw;
+}
+h3 {
+  font-weight: 400;
+}
+h4 {
+  font-size: 2.5vw;
+  font-weight: 300;
+}
+button {
+  border: none;
+  font-family: 'Oswald', sans-serif;
+}
+button:hover {
+  transition: 0.4s;
+  background-color: #778DA9;
+  color: #E0E1DD;
+}
+
+
+.nav {
+  background-color: #C4C4C4;
+  font-size: 2.5vw;
+  text-align: center;
+  color: #0D1B2A;
+  border: none;
+  font-weight: 300;
+}
+#portfolioButton {
+  background-color: #0D1B2A;
+  color: #E0E1DD;
+  font-size: 5vw;
+  text-align: center;
+  font-weight: 400;
+}
+/* container for buttons for social links */
+#socialButtons {
+   display: flex;
+   align-content: center;
+   background: transparent;
+   position: absolute;
+   right:0;
+   bottom: 0;
+   width: 50px;
+   height: 50px;
+}
+#socialButtons img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  background: ;
+}
+#linkedIn {
+  background-color: transparent;
+}
+/* QUERY FORMAT NOTES
+started query, consider querying for vh changes too */
+
+/* WEB QUERY */
+@media screen and (min-width:766px){
+  #leftImagePanel {
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 25vw;
+    height: 83.4vh;
+    margin-top: 7vw;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  .header {
+    margin-top: 16vh;
+    margin-left: 26vw;
+    margin-right: 30vw;
+  }
+  #pronouns {
+    height: 10vw;
+    padding-left: 10%;
+  }
+  #name {
+    height: 10vw;
+  }
+  .buttonsBar {
+    position: absolute;
+    right:0;
+    top:0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-left: 27vw;
+  }
+
+  #logo {
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 25vw;
+    height: 125px;
+    border-radius: 20px;
+  }
+
+  /* maybe use if statements to get buttons to expand */
+  .nav {
+    width: 24.3vw;
+    height:125px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .textCont {
+    margin-left: 26.8vw;
+    width: 65vw;
+    height: 24vw;
+    /* background-color: blue; */
+  }
+  #bodyText {
+    display: flex;
+    flex-grow: 1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+}
+
+/* MOBILE QUERY */
+@media screen and (max-width: 767px){
+  .buttonsBar {
+   position: absolute;
+   right: 0;
+   top: 0;
+   /* background-color: red; */
+   height: 125px;
+   display: block;
+  }
+
+  #leftImagePanel {
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 40vw;
+    height: 83vh;
+    margin-top: 7vh;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  #logo {
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 40vw;
+    height:125px;
+    border-radius: 20px;
+  }
+  .header {
+    width: 57%;
+    margin-top: 16vh;
+    margin-left: 43%;
+    /* margin-right: 30vw; */
+  }
+  #pronouns {
+    height: 10vw;
+    padding-left: 10%;
+  }
+  #name {
+    height: 10vw;
+  }
+  .nav {
+    margin-top: 0;
+    margin-bottom: 2px;
+    height: 40px;
+    width: 57.5vw;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: right;
+    padding-right: 80px;
+  }
+  .textCont {
+    margin-left: 42vw;
+    width: 52.5vw;
+    height: 72vh;
+    position: absolute;
+    bottom: 0;
+  }
+  #bodyText {
+    position: absolute;
+    bottom: 0;
+    height: 67vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  #portfolioButton {
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    padding-left: 50%;
+  }
+
+}

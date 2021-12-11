@@ -1,0 +1,410 @@
+body {
+  background-color: #D4D4D4;
+  font-family: 'Oswald', sans-serif;
+}
+/* PADDING IS IS QUERIES */
+#nameHeader {
+  display: flex;
+  flex-direction: column;
+  color:#0D1B2A;
+  /* background-color: pink; */
+}
+#headerContent {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+}
+#headshot {
+  display: flex;
+  overflow: hidden;
+  width: 50px;
+  height: auto;
+  background-color: #E0E1DD;
+  border-radius: 20px;
+}
+#logo {
+  background-color: #778DA9;
+}
+
+/* SKILLS AND LOGOS CONTAINERS */
+.skills {
+  background-color: #E0E1DD;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
+}
+.skills #skillsContentStack {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+}
+.skills #bigSkills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: green;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  text-align: center;
+}
+#bigSkills h2 {
+  text-align: left;
+  /* background-color: blue; */
+}
+.skills #bigSkills div {
+  padding-left: 3vw;
+}
+
+.skills #skillsContent {
+  display: flex;
+  background-color: beige;
+}
+/* icon container */
+.skills #skillsIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  background-color: red;
+}
+
+.skills #skillsIcons img {
+  width: 80px;
+  height: 80px;
+}
+.skills #skillsText {
+  background-color: blue;
+}
+
+/* style content within container guide div */
+h1 {
+  font-weight: 700;
+  font-size: 7vw;
+}
+h2 {
+  font-weight:500;
+  font-weight: 5vw;
+}
+h3 {
+  font-weight: 400;
+}
+h4 {
+  font-size: 2.5vw;
+  font-weight: 300;
+}
+button {
+  border: none;
+  font-family: 'Oswald', sans-serif;
+}
+button:hover {
+  transition: 0.4s;
+  background-color: #778DA9;
+  color: #E0E1DD;
+}
+
+.nav {
+  background-color: #C4C4C4;
+  font-size: 2.5vw;
+  text-align: center;
+  color: #0D1B2A;
+  border: none;
+  font-weight: 300;
+}
+#aboutButton {
+  background-color: #0D1B2A;
+  color: #E0E1DD;
+  font-size: 5vw;
+  text-align: center;
+  font-weight: 400;
+}
+/* container for buttons for social links */
+#socialButtons {
+   display: flex;
+   align-content: center;
+   background: transparent;
+   position: absolute;
+   right:0;
+   bottom: 0;
+   width: 50px;
+   height: 50px;
+}
+#socialButtons img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  background: ;
+}
+#linkedIn {
+  background-color: transparent;
+}
+/* QUERY FORMAT NOTES
+started query, consider querying for vh changes too */
+
+/* WEB QUERY */
+@media screen and (min-width:766px){
+  .skills {
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 25vw;
+    height: 83.4vh;
+    margin-top: 7vw;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .skills #skillsContentStack {
+    width: 22vw;
+    margin-top: 2vw;
+  }
+  .skills #bigSkills {
+    width: 22vw;
+    height:20vw;
+  }
+  .skills #bigSkills div {
+    height: 30%;
+  }
+  .skills #bigSkills h2 {
+    font-size: 4vw;
+    margin:0;
+  }
+  .skills #skillsContent {
+    width: 22vw;
+    height: 800px;
+  }
+
+  .skills #skillsText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 52%;
+  }
+  .skills #skillsText div {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    width: 100%;
+    height: 80px;
+    /* border-style: solid; */
+    margin-top: 1%;
+    margin-bottom: 1%
+  }
+
+  .skills #skillsIcons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 48%;
+    background-color: red;
+  }
+  .skills #skillsIcons div {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    width: 100%;
+    height: 80px;
+    border-style: solid;
+    margin-top: 1%;
+    margin-bottom: 1%
+  }
+  .skills #skillsIcons img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #headshot {
+    /* margin-left: 70vw; */
+    width: 20vw;
+    height: auto;
+  }
+  #headshot img {
+    width: 20vw;
+    height: auto;
+  }
+  #headerContent {
+    margin-top: 16vh;
+    margin-left: 27vw;
+    margin-right: 30vw;
+  }
+  .content #pronouns {
+    height: 10vw;
+    padding-left: 10%;
+  }
+  .content #name {
+    height: 10vw;
+    width: 40vw;
+    /* background-color: black; */
+  }
+  #aboutCont {
+    margin-left: 27vw;
+    margin-right: 3vw;
+  }
+  .buttonsBar {
+    position: absolute;
+    right:0;
+    top:0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-left: 27vw;
+  }
+  #logo {
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 25vw;
+    height: 125px;
+    border-radius: 20px;
+  }
+  /* maybe use if statements to get buttons to expand */
+  .nav {
+    width: 24.3vw;
+    height:125px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .textCont {
+    margin-left: 26.8vw;
+    width: 65vw;
+    height: 30vw;
+    /* background-color: blue; */
+  }
+  #bodyText {
+    display: flex;
+    flex-grow: 1;
+    border-radius: 20px;
+  }
+}
+
+/* MOBILE QUERY */
+@media screen and (max-width: 767px){
+  .buttonsBar {
+   position: absolute;
+   right: 0;
+   top: 0;
+   /* background-color: red; */
+   height: 125px;
+   display: block;
+  }
+  .skills {
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 40vw;
+    height: 83vh;
+    margin-top: 7vh;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .skills #skillsContentStack {
+    width: 37vw;
+    margin-top: 2vw;
+    /* background-color: blue; */
+  }
+  .skills #skillsContent {
+    width: 37vw;
+    height: 80vh;
+    background-color: blue;
+  }
+  .skills #skillsIcons {
+    width: 60px;
+  }
+  .skills #skillsIcons div {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    width: 100%;
+    height: 50px;
+    border-style: solid;
+  }
+  .skills #skillsIcons img {
+    width: 50px;
+    height: 50px;
+  }
+  .skills #skillsText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* width: 52%; */
+  }
+  .skills #skillsText div {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    width: 100%;
+    height: 50px;
+    border-style: solid;
+    margin-top: 1%;
+    margin-bottom: 1%
+  }
+
+  #logo {
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 40vw;
+    height:125px;
+    border-radius: 20px;
+  }
+  #headerContent {
+    width: 57%;
+    margin-top: 16vh;
+    margin-left: 43%;
+    /* margin-right: 30vw; */
+    display: flex;
+    flex-direction: column;
+  }
+  #headshot {
+    /* margin-left: 70vw; */
+    width: 50vw;
+    height: auto;
+  }
+  #headshot img {
+    width: 50vw;
+    height: auto;
+  }
+  #aboutCont {
+    width: 50vw;
+    margin-left: 43%;
+  }
+  .content #pronouns {
+    height: 10vw;
+    padding-left: 10%;
+  }
+  .content #name {
+    height: 10vw;
+    width: 50vw
+  }
+  .nav {
+    margin-top: 0;
+    margin-bottom: 2px;
+    height: 40px;
+    width: 57.5vw;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: right;
+    padding-right: 80px;
+  }
+  .textCont {
+    margin-left: 42vw;
+    width: 52.5vw;
+    height: 72vh;
+    position: absolute;
+    bottom: 0;
+  }
+  #bodyText {
+    position: absolute;
+    bottom: 0;
+    height: 67vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  #aboutButton {
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    padding-left: 50%;
+  }
+
+}
