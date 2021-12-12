@@ -2,7 +2,101 @@ body {
   background-color: #E0E1DD;
   font-family: 'Oswald', sans-serif;
 }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  margin-top: 135px;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 /* PADDING IS IS QUERIES */
+/* .gridContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  width: auto;
+  height: 80vh;
+  margin-top: 140px;
+}
+.gridContainer div {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  border-style: solid;
+  width: 100%;
+  height: 100%;
+}
+.portfolioButton h1 {
+  margin-top: 35%;
+  height: 8vw;
+  widows: auto;
+  background-color: beige;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 40vh;
+}
+.row div {
+  display: flex;
+  justify-content: space-around;
+  border-color: red;
+
+}
+.row img {
+  border-style: solid;
+  border-color: red;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 40vh;
+}
+#lightPainting {
+  transform:rotate(90deg);
+} */
+
 #name {
   /* background-color: red; */
 }
@@ -26,7 +120,6 @@ body {
 }
 /* finish button styling */
 .textCont {
-
 }
 /* NEEDS TO BE CENTERED TEXT WISE FIX LATER */
 #bodyText h2 {
@@ -180,6 +273,30 @@ started query, consider querying for vh changes too */
 
 /* MOBILE QUERY */
 @media screen and (max-width: 767px){
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .row div {
+    width: 100%;
+    /* height: 90vh; */
+  }
+  .row img {
+    height: 100%;
+  }
+  #lightPainting {
+    height: 10%;
+  }
+  .row2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 40vh;
+  }
+
+  .portfolioButton {
+    padding-top: 20%;
+  }
   .buttonsBar {
    position: absolute;
    right: 0;

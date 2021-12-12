@@ -26,6 +26,13 @@ body {
   background-color: #778DA9;
 }
 
+#aboutCont {
+  /* background-color: blue; */
+}
+.content {
+  /* background-color: red; */
+}
+
 /* SKILLS AND LOGOS CONTAINERS */
 .skills {
   background-color: #E0E1DD;
@@ -42,13 +49,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: green;
+  background-color: #778DA9;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   text-align: center;
 }
 #bigSkills h2 {
   text-align: left;
+  color: #e0e1dd;
   /* background-color: blue; */
 }
 .skills #bigSkills div {
@@ -57,7 +65,7 @@ body {
 
 .skills #skillsContent {
   display: flex;
-  background-color: beige;
+  /* background-color: beige; */
 }
 /* icon container */
 .skills #skillsIcons {
@@ -65,7 +73,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   width: 50%;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .skills #skillsIcons img {
@@ -73,7 +81,7 @@ body {
   height: 80px;
 }
 .skills #skillsText {
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 /* style content within container guide div */
@@ -145,12 +153,15 @@ started query, consider querying for vh changes too */
   .skills {
     position: absolute;
     left:0;
-    bottom:0;
+    /* bottom:0; */
     width: 25vw;
-    height: 83.4vh;
-    margin-top: 7vw;
+    height: 1000px;
+
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+  }
+  #aboutCont h2 {
+    font-size: 4vw;
   }
   .skills #skillsContentStack {
     width: 22vw;
@@ -181,7 +192,7 @@ started query, consider querying for vh changes too */
   .skills #skillsText div {
     display: flex;
     justify-content: center;
-    background-color: beige;
+    /* background-color: beige; */
     width: 100%;
     height: 80px;
     /* border-style: solid; */
@@ -194,15 +205,15 @@ started query, consider querying for vh changes too */
     flex-direction: column;
     justify-content: space-around;
     width: 48%;
-    background-color: red;
+    /* background-color: red; */
   }
   .skills #skillsIcons div {
     display: flex;
     justify-content: center;
-    background-color: beige;
+    /* background-color: beige; */
     width: 100%;
     height: 80px;
-    border-style: solid;
+    /* border-style: solid; */
     margin-top: 1%;
     margin-bottom: 1%
   }
@@ -288,22 +299,36 @@ started query, consider querying for vh changes too */
   .skills {
     position: absolute;
     left:0;
-    bottom:0;
+    /* bottom:0; */
+
     width: 40vw;
-    height: 83vh;
-    margin-top: 7vh;
+    height: 700px;
+    /* margin-top: 140px; */
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    /* background-color: red; */
   }
   .skills #skillsContentStack {
     width: 37vw;
     margin-top: 2vw;
-    /* background-color: blue; */
+    /* background-color: pink; */
+  }
+  .skills #bigSkills {
+    height: 30vw;
+    /* background-color: yellow; */
+  }
+  .skills #bigSkills div {
+    /* background-color: pink; */
+    height: 30%;
+  }
+  .skills #bigSkills h2 {
+    font-size: 5vw;
+    margin:0;
   }
   .skills #skillsContent {
     width: 37vw;
-    height: 80vh;
-    background-color: blue;
+    height: 700px;
+    /* background-color: pink; */
   }
   .skills #skillsIcons {
     width: 60px;
@@ -311,10 +336,10 @@ started query, consider querying for vh changes too */
   .skills #skillsIcons div {
     display: flex;
     justify-content: center;
-    background-color: beige;
+    /* background-color: beige; */
     width: 100%;
     height: 50px;
-    border-style: solid;
+    /* border-style: solid; */
   }
   .skills #skillsIcons img {
     width: 50px;
@@ -324,15 +349,15 @@ started query, consider querying for vh changes too */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* width: 52%; */
+    width: 30vw;
   }
   .skills #skillsText div {
     display: flex;
-    justify-content: center;
-    background-color: beige;
+    justify-content: space-around;
+    /* background-color: beige; */
     width: 100%;
     height: 50px;
-    border-style: solid;
+    /* border-style: solid; */
     margin-top: 1%;
     margin-bottom: 1%
   }
