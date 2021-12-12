@@ -141,6 +141,11 @@ button:hover {
   display: block;
   height: auto;
   background: ;
+
+}
+#socialButtons img:hover {
+  opacity: .9;
+  transition: 0.5s;
 }
 #linkedIn {
   background-color: transparent;
